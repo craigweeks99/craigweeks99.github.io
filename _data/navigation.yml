@@ -6,7 +6,7 @@ main:
   - title: "publications+projects"
     url: /publications+projects/
   - title: "resume"
-    url: /assets/files/resumeCV.pdf/
+    url: /assets/files/resumeCV.pdf
     target: "_blank"
   - title: "contact"
     url: /contact/
