@@ -11,6 +11,9 @@ header:
   overlay_filter: "0.2"
   overlay_image: /assets/images/IMG_5444.JPEG
   caption: "Deschutes National Forest, OR"
+  overlay: false
+  show_title: false
+
 ---
 
 # Welcome
