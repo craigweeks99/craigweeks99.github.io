@@ -1,6 +1,7 @@
 ---
 layout: splash
 classes: narrow
+title: ""
 permalink: /about/
 
 header:

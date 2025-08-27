@@ -1,6 +1,7 @@
 ---
 layout: splash
 classes: wide
+title: ""
 permalink: /contact/
 
 header:

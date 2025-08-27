@@ -4,6 +4,7 @@
 
 layout: splash
 classes: wide
+title: ""
 permalink: /
 
 header:
