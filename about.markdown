@@ -18,7 +18,7 @@ header:
         <ul>
             <li>My favorite running routes</li>
             <li>The history of spaceflight</li>
-            <li>University of Oregon and Oregon State athletics</li>
+            <li>University of Oregon or Oregon State University athletics</li>
             <li>90s and 2000s Alt Rock</li>
             <li>The best Trader Joes snacks</li>
         </ul>
