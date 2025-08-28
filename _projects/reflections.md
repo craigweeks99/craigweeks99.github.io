@@ -28,7 +28,7 @@ In metal additive manufacturing, monitoring the temperatures reached by the meta
            style="max-height: 100%; width: auto;">
     </div>
     <figcaption style="margin-top: 0.5em; font-size: 0.9em; color: #555;">
-      Comparison of intensity distribution across the melt pool surface without (left) and with (right) reflected radiation..
+      Comparison of intensity distribution across the melt pool surface without (left) and with (right) reflected radiation.
     </figcaption>
   </figure>
 
