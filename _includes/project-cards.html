@@ -1,7 +1,8 @@
 {% assign items = include.projects | default: site.projects %}
 
 {% if include.tag %}
-  {% assign items = items | where_exp: "p", "p.tags contains include.tag" %}
+  {% assign items = items | where: "tags", include.tag %}
+  <!--{% assign items = items | where_exp: "p", "p.tags contains include.tag" %}-->
 {% endif %}
 {% if include.limit %}
   {% assign items = items | slice: 0, include.limit %}
