@@ -1,8 +1,7 @@
-{% assign items = include.projects | default: site.projects %}
+<!--{% assign items = include.projects | default: site.projects %}
 
 {% if include.tag %}
-  {% assign items = items | where: "tags", include.tag %}
-  <!--{% assign items = items | where_exp: "p", "p.tags contains include.tag" %}-->
+  {% assign items = items | where_exp: "p", "p.tags contains include.tag" %}
 {% endif %}
 {% if include.limit %}
   {% assign items = items | slice: 0, include.limit %}
@@ -29,6 +28,48 @@
           {{ project.excerpt | default: project.description }}
         </p>
       </div>
+    </a>
+  {% endfor %}
+</div>-->
+
+{% assign items = include.projects | default: site.projects %}
+
+{%- comment -%}
+  GitHub Pages does not support `where_exp`, so we skip tag filtering unless using `where`.
+  If `include.tag` is passed, use basic `where` filter.
+{%- endcomment -%}
+{% if include.tag %}
+  {% assign items = items | where: "tags", include.tag %}
+{% endif %}
+
+{% if include.limit %}
+  {% assign items = items | slice: 0, include.limit %}
+{% endif %}
+
+<div class="project-cards" role="list">
+  {% for project in items %}
+    {% assign thumb = project.thumbnail | default: project.image %}
+    <a class="project-card" role="listitem"
+       href="{{ project.url | relative_url }}"
+       aria-label="{{ project.title | escape }}">
+
+      <div class="project-card__thumb">
+        {% if thumb %}
+          <img src="{{ thumb | relative_url }}"
+               alt="{{ project.title | escape }} thumbnail"
+               loading="lazy" decoding="async">
+        {% else %}
+          <div class="project-card__thumb--placeholder" aria-hidden="true"></div>
+        {% endif %}
+      </div>
+
+      <div class="project-card__body">
+        <h3 class="project-card__title">{{ project.title }}</h3>
+        <p class="project-card__desc">
+          {{ project.excerpt | default: project.description | default: "No description available." }}
+        </p>
+      </div>
+
     </a>
   {% endfor %}
 </div>
