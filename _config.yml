@@ -317,6 +317,11 @@ compress_html:
   ignore:
     envs: development
 
+# Projects Collection
+collections:
+  projects:
+    output: true
+    permalink: /projects/:slug/
 
 # Defaults
 defaults:
@@ -330,3 +335,13 @@ defaults:
       comments: false # true
       share: false
       related: false
+
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      classes: wide
+      author_profile: false
+      share: false
+      toc: false

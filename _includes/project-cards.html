@@ -1,0 +1,33 @@
+{% assign items = include.projects | default: site.projects %}
+
+{% if include.tag %}
+  {% assign items = items | where_exp: "p", "p.tags contains include.tag" %}
+{% endif %}
+{% if include.limit %}
+  {% assign items = items | slice: 0, include.limit %}
+{% endif %}
+
+<div class="project-cards" role="list">
+  {% for project in items %}
+    <a class="project-card" role="listitem"
+       href="{{ project.url | relative_url }}"
+       aria-label="{{ project.title | escape }}">
+      <div class="project-card__thumb">
+        {% assign thumb = project.thumbnail | default: project.image %}
+        {% if thumb %}
+          <img src="{{ thumb | relative_url }}"
+               alt="{{ project.title | escape }} thumbnail"
+               loading="lazy" decoding="async">
+        {% else %}
+          <div class="project-card__thumb--placeholder" aria-hidden="true"></div>
+        {% endif %}
+      </div>
+      <div class="project-card__body">
+        <h3 class="project-card__title">{{ project.title }}</h3>
+        <p class="project-card__desc">
+          {{ project.excerpt | default: project.description }}
+        </p>
+      </div>
+    </a>
+  {% endfor %}
+</div>

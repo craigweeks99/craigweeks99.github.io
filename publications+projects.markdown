@@ -15,4 +15,4 @@ header:
 {% include publications %}
 
 # Projects
-Under Construction
+{% include project-cards.html projects=site.projects limit=8 %}
