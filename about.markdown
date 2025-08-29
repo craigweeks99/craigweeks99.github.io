@@ -14,7 +14,7 @@ header:
 # About Me
 <div style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 2rem;">
     <div style="flex: 1; min-width: 250px;">
-        <p>Hi there! I am a fourth year mechanical engineering PhD student at Carnegie Mellon University, using computer modeling and process monitoring approaches to study laser-based additive manufacturing. I have a broad skillset that spans a wide range of engineering disciplines in both hardware and software.</p>In my spare time, I enjoy building hardware and software projects, running, playing guitar and piano, traveling, and just being outside. I'll also talk ad nauseam about any of the following topics:
+        <p>Hi there! I’m a mechanical engineering PhD candidate at Carnegie Mellon, developing simulation and process monitoring tools to study laser-based additive manufacturing. I have a broad skillset that spans a wide range of engineering disciplines in both hardware and software.</p>In my spare time, I enjoy building hardware and software projects, running, playing guitar and piano, traveling, and just being outside. In addition to these pursuits, I also love to talk about:
         <ul>
             <li>My favorite running routes</li>
             <li>The history of spaceflight</li>
