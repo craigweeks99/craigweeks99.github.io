@@ -2,7 +2,7 @@
 title: Two-axis PID Control of Rolling Ball
 excerpt: Controlling the rolling motion of a ball on a pan-tilt platform
 thumbnail: /assets/images/projects/reflections/GraphicalAbstract.jpg
-date: 2025-01-15
+date: 2021-10-01
 permalink: /projects/PID_control/
 layout: splash
 ---
