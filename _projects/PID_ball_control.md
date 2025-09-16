@@ -1,7 +1,7 @@
 ---
 title: Two-axis PID Control of Rolling Ball
 excerpt: Controlling the rolling motion of a ball on a pan-tilt platform
-thumbnail: /assets/images/projects/reflections/GraphicalAbstract.jpg
+thumbnail: /assets/images/projects/PID_ball_control/IMG_6953.jpg
 date: 2021-10-01
 permalink: /projects/PID_control/
 layout: splash
@@ -10,11 +10,11 @@ layout: splash
 # Two-axis PID Control of Rolling Ball
 
 <figure style="margin: 0 auto; display: flex; flex-direction: column; align-items: center; max-width: 600px;">
-  <img src="/assets/images/projects/reflections/GraphicalAbstract.jpg"  
-       alt="Simulated thermal imaging of L-PBF melt pool"  
+  <img src="/assets/images/projects/PID_ball_control/IMG_6953.JPEG"  
+       alt="Two-axis PID control table"  
        style="width: 100%; height: auto;">
   <figcaption style="margin-top: 0.5em; font-size: 0.9em; color: #555;">
-    Simulated thermal imaging of L-PBF melt pool.
+    Two-axis PID control table
   </figcaption>
 </figure>
 
