@@ -32,7 +32,7 @@ This project demonstrates dynamic control of a pan-tilt platform such that posit
 
 <div style="margin: 2em auto; display: flex; flex-direction: column; align-items: center; max-width: 640px;">
   <video width="640" height="360" controls>
-    <source src="{{ '/assets/images/projects/PID_ball_control/IMG_6959.mp4' | relative_url }}" type="video/mp4">
+    <source src="{{ '/assets/images/projects/PID_ball_control/IMG_6959.MP4' | relative_url }}" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <figcaption style="margin-top: 0.5em; font-size: 0.9em; color: #555;">
