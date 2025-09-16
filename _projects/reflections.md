@@ -3,7 +3,7 @@ title: Simulated Imaging in L-PBF Melt Pools
 excerpt: Resolving thermal imaging artifacts using thermal+optical simulation
 thumbnail: /assets/images/projects/reflections/GraphicalAbstract.jpg
 date: 2025-01-15
-permalink: /projects/cfd-rl-codesign/
+permalink: /projects/cfd-sim/
 layout: splash
 ---
 
