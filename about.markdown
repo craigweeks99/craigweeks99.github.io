@@ -25,7 +25,7 @@ header:
         <li>90s and 2000s Alt Rock</li>
         <li>The best Trader Joe’s snacks</li>
       </ul>
-      <p>Learn more about my engineering journey in my <a href="/assets/files/resumeCV.pdf">resume</a> or check out some of my <a href="/publications+projects/">projects</a>.</p>
+      <p>Learn more about my engineering journey in my <a href="/assets/files/Craig_Weeks_Resume.pdf">resume</a> or check out some of my <a href="/publications+projects/">projects</a>.</p>
     </div>
     <!-- Image Section: narrower -->
     <div style="flex: 2; min-width: 250px;">
