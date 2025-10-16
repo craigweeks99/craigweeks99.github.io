@@ -29,7 +29,7 @@ header:
     </div>
     <!-- Image Section: narrower -->
     <div style="flex: 2; min-width: 250px;">
-      <img src="/assets/images/IMG_2377.JPEG" alt="Craig Weeks" style="width: 80%; height: auto; border-radius: 6px;">
+      <img src="/assets/images/full_bio_photo.JPEG" alt="Craig Weeks" style="width: 80%; height: auto; border-radius: 6px;">
     </div>
     
   </div>
