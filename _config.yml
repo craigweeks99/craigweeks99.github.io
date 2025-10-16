@@ -28,6 +28,12 @@ repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-m
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : "Craig Weeks" # overrides the website title displayed in the masthead, use " " for no title
+# Favicons (set paths to your favicon files under assets/images)
+favicon: "/assets/images/favicon.ico"
+favicon_16: "/assets/images/favicon-16x16.png"
+favicon_32: "/assets/images/favicon-32x32.png"
+apple_touch_icon: "/assets/images/apple-touch-icon.png"
+
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
 enable_copy_code_button  : # true, false (default)
@@ -166,6 +172,11 @@ footer:
       icon: "fab fa-fw fa-instagram"
       # url:
   since: "2013"
+
+
+# Custom JS to run after footer (added to enable smooth anchor scrolling)
+after_footer_scripts:
+  - "/assets/js/anchor-scroll.js"
 
 
 # Reading Files

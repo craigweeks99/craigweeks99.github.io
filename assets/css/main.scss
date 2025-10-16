@@ -121,5 +121,39 @@ search: false
   border-bottom: 0 !important;
 }
 
+/* --- Masthead color override ---
+   Ensure the site masthead uses the theme skin's footer/background color
+   so it visually matches the footer (useful when the masthead appears
+   on plain pages). This uses the existing $footer-background-color
+   variable provided by the Minimal Mistakes skin files. */
+.masthead {
+  background-color: $footer-background-color;
+}
+
+/* Ensure the inner navigation uses the masthead background (not the page background)
+   and style the hidden dropdown so it matches the masthead/footer color. */
+.masthead .greedy-nav {
+  background-color: transparent; /* let the masthead background show through */
+}
+
+.masthead .greedy-nav .visible-links {
+  background-color: transparent;
+}
+
+.masthead .greedy-nav .hidden-links {
+  background-color: $footer-background-color;
+}
+
+.masthead .greedy-nav .hidden-links a,
+.masthead .greedy-nav a {
+  color: $masthead-link-color;
+}
+
+.masthead .greedy-nav .greedy-nav__toggle {
+  color: $masthead-link-color;
+}
+
+
+
 
 

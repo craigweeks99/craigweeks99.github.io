@@ -15,6 +15,15 @@
     window.enable_copy_code_button = true;
   {%- endif %}
 </script>
+<!-- Favicons: placed before styles so some browsers can pick them up early -->
+<link rel="icon" type="image/x-icon" href="{{ site.favicon | default: '/assets/images/favicon.ico' | relative_url }}">
+<link rel="shortcut icon" href="{{ site.favicon | default: '/assets/images/favicon.ico' | relative_url }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ site.apple_touch_icon | default: '/assets/images/apple-touch-icon.png' | relative_url }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ site.favicon_32 | default: '/assets/images/favicon-32x32.png' | relative_url }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ site.favicon_16 | default: '/assets/images/favicon-16x16.png' | relative_url }}">
+
+<!-- Theme color for supported browsers -->
+<meta name="theme-color" content="#ffffff">
 
 <!-- For all browsers -->
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
