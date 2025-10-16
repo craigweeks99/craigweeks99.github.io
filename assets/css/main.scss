@@ -126,31 +126,36 @@ search: false
    so it visually matches the footer (useful when the masthead appears
    on plain pages). This uses the existing $footer-background-color
    variable provided by the Minimal Mistakes skin files. */
-.masthead {
-  background-color: $footer-background-color;
+.masthead, .masthead.masthead, header .masthead {
+  background-color: $footer-background-color !important;
 }
 
-/* Ensure the inner navigation uses the masthead background (not the page background)
-   and style the hidden dropdown so it matches the masthead/footer color. */
-.masthead .greedy-nav {
-  background-color: transparent; /* let the masthead background show through */
+/* Stronger selectors to ensure GitHub Pages build doesn't override these */
+.masthead .greedy-nav,
+.masthead header .greedy-nav,
+.masthead nav.greedy-nav {
+  background-color: transparent !important; /* let the masthead background show through */
 }
 
-.masthead .greedy-nav .visible-links {
-  background-color: transparent;
+.masthead .greedy-nav .visible-links,
+.masthead nav.greedy-nav .visible-links {
+  background-color: transparent !important;
 }
 
-.masthead .greedy-nav .hidden-links {
-  background-color: $footer-background-color;
+.masthead .greedy-nav .hidden-links,
+.masthead nav.greedy-nav .hidden-links {
+  background-color: $footer-background-color !important;
 }
 
 .masthead .greedy-nav .hidden-links a,
-.masthead .greedy-nav a {
-  color: $masthead-link-color;
+.masthead .greedy-nav a,
+.masthead nav.greedy-nav a {
+  color: $masthead-link-color !important;
 }
 
-.masthead .greedy-nav .greedy-nav__toggle {
-  color: $masthead-link-color;
+.masthead .greedy-nav .greedy-nav__toggle,
+.masthead nav.greedy-nav .greedy-nav__toggle {
+  color: $masthead-link-color !important;
 }
 
 
