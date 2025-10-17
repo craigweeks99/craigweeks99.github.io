@@ -13,6 +13,5 @@ header:
 
 # Get in Touch
 **Email:** [craigweeks99@outlook.com](mailto:craigweeks99@outlook.com) \
-**Phone:** (503)-915-2789 \
 **LinkedIn:** [linkedin.com/in/craigweeks99](https://linkedin.com/in/craigweeks99) \
 **Location:** Carnegie Mellon University, 5000 Forbes Ave, Pittsburgh, PA, 15213
