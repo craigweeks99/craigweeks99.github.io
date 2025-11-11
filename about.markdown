@@ -33,7 +33,7 @@ header:
   <div class="about-inner">
     <div class="about-text">
       <p>Hi there! I’m a mechanical engineering PhD candidate at Carnegie Mellon, developing simulation and process monitoring tools to study laser-based additive manufacturing. I have a broad skillset that spans a wide range of engineering disciplines in both hardware and software.</p>
-      <p>In my spare time, I enjoy building hardware and software projects, running, playing guitar and piano, traveling, and just being outside. In addition to these pursuits, I also love to talk about:</p>
+      <p>In my spare time, I enjoy building hardware and software projects, running, playing guitar and piano, traveling, and getting outside. In addition to these pursuits, I also like to talk about:</p>
       <ul>
         <li>My favorite running routes</li>
         <li>The history of spaceflight</li>
