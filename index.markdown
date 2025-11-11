@@ -15,6 +15,6 @@ header:
 ---
 
 # Welcome
-Thanks for stopping by! My name is Craig and I'm a researcher passionate about applying principles of **fundamental engineering**, **mechanical design**, and **computation** to solve challenges at the intersection of **aerospace, robotics, and energy**.
+Thanks for stopping by! My name is Craig and I'm an engineer passionate about applying **fundamental engineering analysis**, **computation**, and **mechanical design** to solve challenges at the intersection of **aerospace, energy, control systems**, and **machine learing**.
 
 ![Craig Weeks](/assets/images/bio_photo.jpg){: .align-center style="max-width: 250px; border-radius: 6px; margin-top: 1rem;"}
