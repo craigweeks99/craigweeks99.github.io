@@ -18,7 +18,7 @@ layout: splash
   </figcaption>
 </figure>
 
-In metal additive manufacturing, monitoring the temperatures reached by the metal is important for monitoring the process. However, due to complex physical interactions in the melt pool region, it is difficult to precicely obtain high temperatures in the material even with emissivity-independent ratiometric imaging. I developed a method to simulate thermal imaging on concave melt pool surfaces in Laser Powder Bed Fusion (L-PBF), accounting for high-temperature reflections that distort experimental temperature data. The method first solves for net radiosity emerging from the melt pool and then divides that energy up into bundles of rays that are traced through an optical lens to a detector. 
+In metal additive manufacturing, monitoring the temperatures reached by the metal is important for monitoring the process. However, due to complex physical interactions in the melt pool region, it is difficult to precisely obtain high temperatures in the material even with emissivity-independent ratiometric imaging. I developed a method to simulate thermal imaging on concave melt pool surfaces in Laser Powder Bed Fusion (L-PBF), accounting for high-temperature reflections that distort experimental temperature data. The method first solves for net radiosity emerging from the melt pool and then divides that energy up into bundles of rays that are traced through an optical lens to a detector. 
 
 <div style="display: flex; justify-content: center; gap: 1em; flex-wrap: wrap; max-width: 1000px; margin: 0 auto;">
   <figure style="flex: 1; min-width: 280px; display: flex; flex-direction: column; align-items: center; text-align: center;">
@@ -44,7 +44,7 @@ In metal additive manufacturing, monitoring the temperatures reached by the meta
   </figure>
 </div>
 
-Validated on 316L stainless steel, the approach reproduces temperatures within 4–6% of experimental values and reveals conditions inside the vapor depression that drive keyhole porosity and alloying element evaporation. Findings suggest longer imaging wavelengths decrease the impact of reflections during imaging and a probable emissivity of ~0.32 for liquid steel. The technique can aid in process monitoring and model validation, with broader applications in aerospace and renewable energy. A manuscript detailing the work is published at https://www.sciencedirect.com/science/article/pii/S2214860426001715?via%3Dihub
+Validated on 316L stainless steel, the approach reproduces temperatures within 4–6% of experimental values and reveals conditions inside the vapor depression that drive keyhole porosity and alloying element evaporation. Findings suggest longer imaging wavelengths decrease the impact of reflections during imaging and a probable emissivity of ~0.32 for liquid steel. The technique can aid in process monitoring and model validation, with broader applications in aerospace and renewable energy. A manuscript detailing the work is [*Additive Manufacturing*](https://www.sciencedirect.com/science/article/pii/S2214860426001715).
 
 
 
