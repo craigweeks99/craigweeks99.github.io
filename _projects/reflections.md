@@ -44,7 +44,7 @@ In metal additive manufacturing, monitoring the temperatures reached by the meta
   </figure>
 </div>
 
-Validated on 316L stainless steel, the approach reproduces temperatures within 4–6% of experimental values and reveals conditions inside the vapor depression that drive keyhole porosity and alloying element evaporation. Findings suggest longer imaging wavelengths decrease the impact of reflections during imaging and a probable emissivity of ~0.32 for liquid steel. The technique can aid in process monitoring and model validation, with broader applications in aerospace and renewable energy. A manuscript detailing the work is [*Additive Manufacturing*](https://www.sciencedirect.com/science/article/pii/S2214860426001715).
+Validated on 316L stainless steel, the approach reproduces temperatures within 4–6% of experimental values and reveals conditions inside the vapor depression that drive keyhole porosity and alloying element evaporation. Findings suggest longer imaging wavelengths decrease the impact of reflections during imaging and a probable emissivity of ~0.32 for liquid steel. The technique can aid in process monitoring and model validation, with broader applications in aerospace and renewable energy. A manuscript detailing the work is published in [*Additive Manufacturing*](https://www.sciencedirect.com/science/article/pii/S2214860426001715).
 
 
 
